@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright
 
 def go_youtube():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)  # git aint working
+        browser = p.chromium.launch(headless=False)  # git is working
 
         page = browser.new_page()
 
