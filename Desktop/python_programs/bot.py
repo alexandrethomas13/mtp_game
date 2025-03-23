@@ -6,7 +6,7 @@ def go_youtube():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)  # git is working
 
-        page = browser.new_page()
+        page = browser.new_page()  # git very sigma
 
         page.goto("https://www.youtube.com")
 
